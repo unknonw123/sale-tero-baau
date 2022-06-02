@@ -1,0 +1,616 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital@1&family=Roboto+Slab:wght@500&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+    text-decoration:none;
+    font-family: 'Poppins', sans-serif;
+color:black;
+font-size: 20px;
+font-weight: bold;
+box-sizing: border-box;
+color: #fff;
+
+}
+a{
+    color: #fff;
+}
+.header{
+    height: 7vh;
+    width: 100vw;
+    
+
+}
+.logo img{
+    width: 90px;
+border:3px solid white;
+border-radius: 150px;
+
+}
+.logo{
+    width: 60px;
+    margin:6px;
+    margin-right:20px;
+
+
+}
+.home{
+    background-color: #fff;
+    padding: 5px 6px;
+    color:black;
+    border-radius: 5px;
+}
+.a{
+    padding: 5px 6px;
+  
+    border-radius: 5px; 
+
+}
+.a:hover{
+    background-color: #fff;
+    color: black;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-left: 25%;
+    border-radius: 5px;
+    color: black;
+}
+.box{
+    width:30%;
+    height: 30%;
+    position: relative;
+
+ left:60%;
+    
+}
+.text-box p{
+    padding-left: 30px;
+}
+.text-box::before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    border-left: 3px solid transparent;
+    border-bottom:3px solid transparent;
+   box-sizing: border-box;
+    transition: all .9s ease-in-out;
+}
+.text-box::after{
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    box-sizing: border-box;
+    border-right: 3px solid transparent;
+    border-top:3px solid transparent;
+ 
+     transition: all .8s ease-in;
+}
+.box:hover .text-box::before,.box:hover .text-box::after{
+    border-color: red;
+    width:100%;
+    height: 100%;
+    cursor: pointer;
+}
+.thote{
+    text-align: center;
+    padding-right: 25px;
+}
+.msg{
+    text-align: center;
+}
+.n{
+    text-align: center;
+}
+
+
+.box P{
+    line-height: 40PX;
+}
+.text-box h1{
+    text-align: center;
+}
+
+.none{
+    display: none;
+}
+button{
+    padding:normal;
+    border: 3px  solid white;
+    margin-left:1%;
+    background: transparent;
+    border-radius: 5px;
+cursor: pointer;
+font-size: 16px;
+padding: 3px 5px;
+}
+
+nav{
+display: flex;
+height: 60px;
+width: 100vw;
+
+align-items: center;
+}
+ul{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+
+
+.background{
+    background: rgb(125, 157, 204) url(gup.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+.sanam{
+    list-style: inside;
+    font-size: 25px;
+ color: rgb(255, 255, 255);
+
+}
+.Homepage{
+    height: 100vh;
+    width: 100vw;
+}
+.aruna{
+    height: 255px;
+}
+.gc{
+    text-align: center;
+    color: #12e647;
+}
+nav{
+    scroll-snap-align: center;
+}
+
+
+.content{
+  
+width: 70%;
+    
+    height: 70%;
+    
+    margin-left: 40px;
+
+
+}
+.owner img{
+    margin-left: 70px;
+    margin-top: -40%;
+
+
+}
+.owner{
+
+    width: 30%;
+    display: none;
+    
+}
+.love{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.logo-text{
+    position: absolute;
+    top: 200px;
+    font-size: 35px;
+}
+
+
+.content img{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 300px
+}
+.main{
+    height: 100vh;
+
+
+}
+.title h1{
+    color:black;
+    text-align: center;
+    margin: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+.heading1 h1{
+    color: black;
+    text-align: center;
+}
+.firstimg{
+    width:250px;
+}
+
+.img{
+    width:200px;
+}
+.new{
+    height: 333px;
+}
+
+.gupta{
+    color: red;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.first{
+    display: flex;
+
+    width: 100%;
+    margin:auto;
+    margin-top:4%;
+    justify-content: space-around;
+background-color: #f4f1f1;
+scroll-snap-align: center;
+}
+.owner img{
+margin-bottom: 50px;
+
+}
+.second{
+    display: flex;
+
+    width: 100%;
+    margin:auto;
+    margin-top:4%;
+    justify-content: space-around;
+    background-color: #f4f1f1;
+  
+}
+ 
+
+.firsttext h1,.p{
+    color: black;
+}
+.firsttext{
+    width:250px;
+}
+.d{
+    color:red;
+}
+.g{
+margin-top: 60px;
+}
+h1{
+    font-size: 35px;
+}
+.g{
+    color:black;
+    text-align: center;
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+.footer{
+
+width: 100vw;
+height: 800px;
+position: absolute;
+left: 0px;
+
+}
+.ck{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.element{
+
+    display: flex;
+    justify-content: space-around;
+    width:60%;
+    margin: auto;
+    height: 30%;
+    align-items: center;
+    position: relative;
+bottom:-5%;
+flex-direction: column;
+
+justify-content: space-around;
+
+}
+
+.phone{
+    position: relative;
+    right: -50%;
+}
+.ek{
+display: flex;
+width: 50%;
+justify-content: space-around;
+}
+
+.contactt{
+    text-align: center;
+     
+ text-align: center;
+
+
+}
+.ek a i{
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+i:hover{
+    color: aqua;
+  font-weight: 900;
+    transition: 0.4s all ease;
+    border: 5px solid white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.phone h2{
+    float: right;
+    margin-right: 40px;
+    letter-spacing: 3px;
+    border: 4px solid transparent;
+    padding: 5px;
+    border-radius: 5px;
+    color:#fff;
+}
+h2:hover{
+border-color: #fff;
+cursor: pointer;
+text-align: center;
+}
+label{
+    display: none;
+}
+#click{
+    display: none;
+}
+.home{
+    scroll-snap-align: center;
+}
+.dai{
+    height: 50%;
+    width: 100vw;
+ 
+margin-top: 100px;
+display: flex;
+
+justify-content: space-around;
+}
+.footer{
+    scroll-snap-align: center;
+}
+.services{
+  border: 5px solid white;
+  border-radius: 10px;
+    width: 30%;
+
+}
+
+.contact{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 30%;
+    
+}
+.about{
+    width: 30%;
+    border: 5px solid white;
+  border-radius: 10px;
+}
+
+.love{
+    width: 70%;
+}
+.content{
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 40%;
+}
+
+@media all and (max-width:1110px){
+
+.content{
+    height: 50%;
+}
+
+ nav{
+     height: 60vh;
+
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+    position: absolute;
+left: -100%;
+transition: all 0.4s ease-in-out;
+
+ }
+
+ .owner img{
+position: relative;
+top:-195px;
+margin-bottom: 50px;
+ }
+
+
+
+
+ .a{
+    color: black;
+font-size: larger;
+font-weight: bolder;
+background-color: #fff;
+
+}
+ 
+ .a:hover,.home{
+     color:red;
+ }
+ ul{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     height: 40VH;
+     justify-content: space-around;
+ }
+ #click:checked ~ nav{
+left: 0px;
+position: relative;
+z-index: 2;
+ }
+ #click:checked ~ .menu-btn i:before{
+    content: "\f00d";  
+  } 
+ input{
+     margin-left: 2%;
+ }
+ label{
+   display: block;
+     position: absolute;
+     top: 0px;
+     font-size: 40px;
+     font-weight: bolder;
+     right: 5%;
+     cursor: pointer;
+     z-index: 4;
+ }
+ i{
+     font-size: 30px;
+ }
+
+ .img{
+     margin: 30px;
+ }
+
+
+ 
+ 
+ 
+}
+
+@media all and (max-width:999px){
+.content{
+    height: 60%;
+}
+.first{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94%;
+
+}
+.second{
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+
+
+}
+}
+    
+@media all and (max-width:965px){
+    .sanam{
+        font-size: 16px;
+    }
+    .footer{
+        height: 100%;
+    }
+  
+}
+@media all and (max-width:580px){
+    .dai{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+        height: 60%;
+    }
+    .footer{
+        height: 200%;
+    }
+    .services,.contact,.about{
+        width: 90%;
+        height: 50%;
+        margin: 10px;
+        line-height: 40px;
+       
+    }
+    .gc,.sanam{
+        font-size: 25px;
+    }
+    .element{
+
+        display: flex;
+        width: 90%;
+    
+    }
+.ek{
+    margin: 20%;
+}
+
+}
+@media all and (max-width:375px){
+    .services{
+        margin-top: 250px;
+    }
+
+    .element{
+   margin-top: 30%;
+
+        width: 70%;
+        height: 350px;
+ 
+
+    }
+.footer{
+    height: 300vh;
+}
+.phone{
+    position: absolute;
+  top:250px;
+right: 7px;}
+
+}
+@media all and (max-width:590px){
+    .content{
+        height: 25%;
+    top: 20px;}
+    
+}
+.text-box{
+    display: none;
+}
+
+@media all and (max-width:482px){
+.logo-text{
+    top: 10%;
+}
+}
+@media all and (max-width:394px) {
+    .logo-text{
+        top: 8%;
+        margin-right: 4px;
+        
+    }
+    .content{
+        height: 40%;
+    }
+    .love{
+        width: 123%;
+    }
+}
